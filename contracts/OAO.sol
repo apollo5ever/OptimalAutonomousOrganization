@@ -75,6 +75,7 @@ contract OptimalAutonomousOrganization {
         voteIndex = 0;
         ceo = address(0);
         threshold = 4;
+        nonEmptySeats = 5;
 
         _balances[owner0] = 1;
         _balances[owner1] = 1;
